@@ -1,0 +1,59 @@
+# Copyright (C) 2024 Mostafijur
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brand Logo Slider 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/brand-logo-slider\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-09T17:19:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: brand-logo-slider\n"
+
+#. Plugin Name of the plugin
+#: brand-logo-slider.php
+msgid "Brand Logo Slider"
+msgstr ""
+
+#. Description of the plugin
+#: brand-logo-slider.php
+msgid "You can quickly create sliders with a Gutenberg feel."
+msgstr ""
+
+#. Author of the plugin
+#: brand-logo-slider.php
+msgid "Mostafijur"
+msgstr ""
+
+#. Author URI of the plugin
+#: brand-logo-slider.php
+msgid "https://github.com/mostafijur-rahman299"
+msgstr ""
+
+#: admin/Components/Elements/Left.js:86
+#: dist/admin-script.js:1
+#: dist/admin-script.js:302
+msgid "Remove Item"
+msgstr ""
+
+#: admin/Components/Elements/Left.js:89
+#: dist/admin-script.js:1
+#: dist/admin-script.js:305
+msgid "Duplicate Item"
+msgstr ""
+
+#: admin/Components/Elements/Left.js:93
+#: dist/admin-script.js:1
+#: dist/admin-script.js:309
+msgid "Add New Item"
+msgstr ""
+
+#: admin/Components/Elements/Left.js:100
+#: dist/admin-script.js:1
+#: dist/admin-script.js:316
+msgid "Show Item"
+msgstr ""

@@ -1,0 +1,176 @@
+ .bls_mainArea {
+   .header_area {
+     width: 100%;
+     background-color: #0000001c;
+
+     .shortCode {
+       padding: 8px 4px;
+       // display: inline-block;
+
+       .content {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+
+         font-family: sans-serif;
+         font-weight: 500;
+         font-size: 20px;
+         color: #000;
+
+         .left {
+           background: #fff;
+           padding: 7px 5px;
+         }
+
+         .right {
+           padding: 7px 17px;
+           background: #fff;
+           cursor: pointer;
+         }
+       }
+     }
+   }
+
+   .bodyArea {
+     margin-top: 20px;
+     display: flex;
+     column-gap: 30px;
+
+     .left {
+       width: 25%;
+     }
+
+     .right {
+       width: 75%;
+     }
+   }
+ }
+
+ .phTabPanel {
+   width: 100%;
+
+   .components-tab-panel__tabs {
+     width: 100%;
+
+     border-bottom: 1px solid #00000029;
+
+     .components-tab-panel__tabs-item {
+       width: 50%;
+       border: none;
+       font-size: 16px;
+       font-family: sans-serif;
+       font-weight: 600;
+       cursor: pointer;
+       padding: 10px 0px;
+
+       &.activeTab {
+         background-color: #28334aff;
+         color: #fff;
+       }
+     }
+   }
+
+   .phPanelBody {
+     width: 100%;
+     border-bottom: 1px solid rgb(0 0 0 / 16%);
+
+     h2 {
+       padding: 0;
+       margin: 0;
+     }
+
+     .components-panel__body-title {
+       width: 100%;
+
+       .components-button {
+         width: 100%;
+         position: relative;
+         text-align: left;
+         cursor: pointer;
+         border: none;
+         padding: 10px 10px;
+
+         &:hover {
+           background-color: #00000014;
+         }
+
+         .components-panel__arrow {
+           color: #1e1e1e;
+           position: absolute;
+           right: 16px;
+           top: 50%;
+           transform: translateY(-50%);
+           fill: currentColor;
+           transition: color 0.1s ease-in-out;
+         }
+       }
+     }
+   }
+
+   .toggleControl {
+     padding: 10px 30px 10px 30px !important;
+
+     .components-base-control__field {
+       display: flex;
+       align-items: center;
+
+       .components-base-control__label {
+         flex: 1;
+         margin-bottom: 0px !important;
+       }
+
+       .components-range-control__root {
+         flex: 2;
+       }
+     }
+   }
+
+   .childPanelBody {
+     width: 90%;
+     margin: 0 auto;
+
+     .removeBtn {
+       margin-top: 0px;
+       margin-right: 0px;
+     }
+
+     .duplicateBtn {
+       margin-top: 0px;
+     }
+   }
+
+   .addBtn {
+     font-size: 16px;
+     margin: 20px 10px 10px 10px;
+     padding: 3px 9px;
+     color: #000;
+     font-weight: 500;
+     cursor: pointer;
+   }
+ }
+
+ .ph_media_upload {
+   display: flex;
+   gap: 10px;
+   padding: 10px;
+
+   .components-base-control {
+     width: 70%;
+   }
+
+   .uploadBtn {
+     cursor: pointer;
+   }
+ }
+
+ // Header Area 
+ .header_area {
+   display: inline-block;
+ }
+
+ .right {
+   cursor: pointer;
+   color: #0073e6;
+   font-weight: bold;
+ }
